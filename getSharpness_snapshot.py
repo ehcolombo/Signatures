@@ -11,6 +11,7 @@ from scipy.stats import binned_statistic
 import glob
 
 #Calculate curvature for pixels 'crop' units away from the edges of the snapshot
+#cropping avoids edge effects (see snapshots), but edge effects are negligible.
 crop=5 # must be > 1
 
 
